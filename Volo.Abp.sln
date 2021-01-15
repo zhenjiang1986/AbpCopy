@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D248486A-B4BD-405D-B9FC-A54A4ACEC8E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.Abp.Core", "src\Volo.Abp.Core\Volo.Abp.Core.csproj", "{F8576BE4-35A1-40F0-AB5A-787EDAFC020B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.Abp", "src\Volo.Abp\Volo.Abp.csproj", "{389D2B0F-5FBA-45AD-AE96-B6212500DDCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8576BE4-35A1-40F0-AB5A-787EDAFC020B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8576BE4-35A1-40F0-AB5A-787EDAFC020B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8576BE4-35A1-40F0-AB5A-787EDAFC020B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8576BE4-35A1-40F0-AB5A-787EDAFC020B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389D2B0F-5FBA-45AD-AE96-B6212500DDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389D2B0F-5FBA-45AD-AE96-B6212500DDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389D2B0F-5FBA-45AD-AE96-B6212500DDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389D2B0F-5FBA-45AD-AE96-B6212500DDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8576BE4-35A1-40F0-AB5A-787EDAFC020B} = {D248486A-B4BD-405D-B9FC-A54A4ACEC8E9}
+		{389D2B0F-5FBA-45AD-AE96-B6212500DDCC} = {D248486A-B4BD-405D-B9FC-A54A4ACEC8E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54BCC449-C89C-4950-AA82-824F90B6BEAD}
+	EndGlobalSection
+EndGlobal
