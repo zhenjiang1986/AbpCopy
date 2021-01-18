@@ -13,6 +13,7 @@
     </PackageReference>
     <PackageReference Include="JetBrains.Annotations" Version="2020.3.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="5.0.2" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
     <PackageReference Include="Nito.AsyncEx.Context" Version="5.1.0" />
     <PackageReference Include="Nito.AsyncEx.Coordination" Version="5.1.0" />
