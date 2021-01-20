@@ -4,10 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D248486A-B4BD-405D-B9FC-A54A4ACEC8E9}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.Abp.Core", "src\Volo.Abp.Core\Volo.Abp.Core.csproj", "{F8576BE4-35A1-40F0-AB5A-787EDAFC020B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.Core", "src\Volo.Abp.Core\Volo.Abp.Core.csproj", "{F8576BE4-35A1-40F0-AB5A-787EDAFC020B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.Abp", "src\Volo.Abp\Volo.Abp.csproj", "{389D2B0F-5FBA-45AD-AE96-B6212500DDCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp", "src\Volo.Abp\Volo.Abp.csproj", "{389D2B0F-5FBA-45AD-AE96-B6212500DDCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
