@@ -1,4 +1,4 @@
-﻿namespace Volo.Abp.ExceptionHandling
+namespace Volo.Abp.ExceptionHandling
 {
     public interface IHasErrorDetails
     {

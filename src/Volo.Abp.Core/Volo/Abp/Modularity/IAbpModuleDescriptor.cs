@@ -1,10 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Reflection;
 
 namespace Volo.Abp.Modularity
 {
-    class IAbpModuleDescriptor
+    public interface IAbpModuleDescriptor
     {
+        Type Type { get; }
+
+        Assembly Assembly { get; }
+
+        IAbpModule Instance { get; }
+
+        bool IsLoadedAsPlugIn { get; }
+
+        IReadOnlyList<IAbpModuleDescriptor> Dependencies { get; }
     }
 }

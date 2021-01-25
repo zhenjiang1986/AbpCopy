@@ -1,9 +1,9 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Volo.Abp.DependencyInjection
 {
     [ExposeServices(
-        typeof(IHybridServiceScopeFactory),
+        typeof(IHybridServiceScopeFactory), 
         typeof(DefaultServiceScopeFactory)
         )]
     public class DefaultServiceScopeFactory : IHybridServiceScopeFactory, ITransientDependency

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using JetBrains.Annotations;
 using Volo.Abp.Collections;
 using Volo.Abp.DynamicProxy;

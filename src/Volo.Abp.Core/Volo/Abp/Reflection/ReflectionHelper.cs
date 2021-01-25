@@ -134,7 +134,7 @@ namespace Volo.Abp.Reflection
             var currentType = objectType;
             var objectPath = currentType.FullName;
             var absolutePropertyPath = propertyPath;
-             if (objectPath != null && absolutePropertyPath.StartsWith(objectPath))
+            if (objectPath != null && absolutePropertyPath.StartsWith(objectPath))
             {
                 absolutePropertyPath = absolutePropertyPath.Replace(objectPath + ".", "");
             }

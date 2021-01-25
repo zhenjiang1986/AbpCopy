@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp.Core", "src\Volo.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volo.Abp", "src\Volo.Abp\Volo.Abp.csproj", "{389D2B0F-5FBA-45AD-AE96-B6212500DDCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volo.MyConsole", "src\Volo.MyConsole\Volo.MyConsole.csproj", "{9C684FCA-586E-4D43-825E-010755F943DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{389D2B0F-5FBA-45AD-AE96-B6212500DDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{389D2B0F-5FBA-45AD-AE96-B6212500DDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{389D2B0F-5FBA-45AD-AE96-B6212500DDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C684FCA-586E-4D43-825E-010755F943DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C684FCA-586E-4D43-825E-010755F943DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C684FCA-586E-4D43-825E-010755F943DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C684FCA-586E-4D43-825E-010755F943DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,6 +39,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F8576BE4-35A1-40F0-AB5A-787EDAFC020B} = {D248486A-B4BD-405D-B9FC-A54A4ACEC8E9}
 		{389D2B0F-5FBA-45AD-AE96-B6212500DDCC} = {D248486A-B4BD-405D-B9FC-A54A4ACEC8E9}
+		{9C684FCA-586E-4D43-825E-010755F943DD} = {D248486A-B4BD-405D-B9FC-A54A4ACEC8E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54BCC449-C89C-4950-AA82-824F90B6BEAD}

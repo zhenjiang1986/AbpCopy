@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace Volo.Abp.DependencyInjection
 {
@@ -8,7 +8,7 @@ namespace Volo.Abp.DependencyInjection
 
         public ObjectAccessor()
         {
-
+            
         }
 
         public ObjectAccessor([CanBeNull] T obj)

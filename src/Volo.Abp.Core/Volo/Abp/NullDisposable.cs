@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Volo.Abp
 {
@@ -8,7 +8,7 @@ namespace Volo.Abp
 
         private NullDisposable()
         {
-
+            
         }
 
         public void Dispose()

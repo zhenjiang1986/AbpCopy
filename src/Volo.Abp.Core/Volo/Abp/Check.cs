@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Text;
 
 namespace Volo.Abp
 {
@@ -11,8 +10,8 @@ namespace Volo.Abp
     {
         [ContractAnnotation("value:null => halt")]
         public static T NotNull<T>(
-            T value,
-            [InvokerParameterName][NotNull] string parameterName)
+            T value, 
+            [InvokerParameterName] [NotNull] string parameterName)
         {
             if (value == null)
             {
@@ -24,8 +23,8 @@ namespace Volo.Abp
 
         [ContractAnnotation("value:null => halt")]
         public static T NotNull<T>(
-            T value,
-            [InvokerParameterName][NotNull] string parameterName,
+            T value, 
+            [InvokerParameterName] [NotNull] string parameterName, 
             string message)
         {
             if (value == null)
@@ -39,7 +38,7 @@ namespace Volo.Abp
         [ContractAnnotation("value:null => halt")]
         public static string NotNull(
             string value,
-            [InvokerParameterName][NotNull] string parameterName,
+            [InvokerParameterName] [NotNull] string parameterName,
             int maxLength = int.MaxValue,
             int minLength = 0)
         {
@@ -64,7 +63,7 @@ namespace Volo.Abp
         [ContractAnnotation("value:null => halt")]
         public static string NotNullOrWhiteSpace(
             string value,
-            [InvokerParameterName][NotNull] string parameterName,
+            [InvokerParameterName] [NotNull] string parameterName,
             int maxLength = int.MaxValue,
             int minLength = 0)
         {
@@ -89,7 +88,7 @@ namespace Volo.Abp
         [ContractAnnotation("value:null => halt")]
         public static string NotNullOrEmpty(
             string value,
-            [InvokerParameterName][NotNull] string parameterName,
+            [InvokerParameterName] [NotNull] string parameterName,
             int maxLength = int.MaxValue,
             int minLength = 0)
         {
@@ -112,7 +111,7 @@ namespace Volo.Abp
         }
 
         [ContractAnnotation("value:null => halt")]
-        public static ICollection<T> NotNullOrEmpty<T>(ICollection<T> value, [InvokerParameterName][NotNull] string parameterName)
+        public static ICollection<T> NotNullOrEmpty<T>(ICollection<T> value, [InvokerParameterName] [NotNull] string parameterName)
         {
             if (value.IsNullOrEmpty())
             {
@@ -125,7 +124,7 @@ namespace Volo.Abp
         [ContractAnnotation("type:null => halt")]
         public static Type AssignableTo<TBaseType>(
             Type type,
-            [InvokerParameterName][NotNull] string parameterName)
+            [InvokerParameterName] [NotNull] string parameterName)
         {
             NotNull(type, parameterName);
 
@@ -139,8 +138,8 @@ namespace Volo.Abp
 
         public static string Length(
             [CanBeNull] string value,
-            [InvokerParameterName][NotNull] string parameterName,
-            int maxLength,
+            [InvokerParameterName] [NotNull] string parameterName, 
+            int maxLength, 
             int minLength = 0)
         {
             if (minLength > 0)
